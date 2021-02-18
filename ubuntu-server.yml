@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: ubuntu-server
   connection: local
 
   tasks:
