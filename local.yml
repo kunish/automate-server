@@ -4,7 +4,7 @@
   tasks:
     - apt:
         update_cache: yes
-        upgrade: yes
+        upgrade: "yes"
 
     - package:
         name:
