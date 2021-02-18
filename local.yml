@@ -1,0 +1,12 @@
+- hosts: localhost
+  connection: local
+
+  tasks:
+    - apt:
+        update_cache: yes
+        update: yes
+
+    - package:
+        name:
+          - ansible
+        state: latest
